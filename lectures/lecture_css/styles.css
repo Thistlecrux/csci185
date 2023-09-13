@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(61, 76, 90);
+}
+
+/* Your code here */
+header {
+    background-color: rgb(166, 210, 248);
+    padding: 30px;
+    text-align: center;
+    color: white;
+   
+}
+section {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: solid 1px darkblue;
+    background-color: rgb(237, 228, 228);
+    color: rgb(61, 76, 90);
+}
+main {
+    background-color: rgb(61, 76, 90);
+}
+
