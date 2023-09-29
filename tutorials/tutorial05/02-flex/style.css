@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#home {
+background-color: rgb(186, 228, 228);
+}
+#bio {
+background-color: rgb(255, 205, 227);
+}
+#portfolio {
+background-color: rgb(185, 230, 197);
+}
+#contact {
+background-color: rgb(239, 239, 191);
+}
+#home, #bio, #portfolio, #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* create additional rules below:  */
