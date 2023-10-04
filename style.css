@@ -1,14 +1,67 @@
 /* You're welcome to change any of this! */
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 
 body {
-    margin: 0px;
     font-family: Arial, sans-serif;
+    background-image: url(homeimages/Screenshot\ 2023-10-02\ 160934.png)
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    color: rgb(240, 186, 188);
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#header {
+    grid-column: 2 / 5;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+#tutorials {
+    grid-column: 3 / 4;
+}
+
+#homework {
+    grid-column: 2 / 3;
+  
+}
+
+#inspiration {
+    grid-column: 4 / 5;
+  
+}
+
+#class-exercises {
+    grid-column: 2 / 3;
+    
+}
+
+#quizzes {
+    grid-column: 4 / 5;
+    
+}
+#tutorials, #homework, #inspiration, #class-exercises, #quizzes {
+
+background-color: antiquewhite;
+border-radius: 25px;
+
+}
+
+h2 {
+    font-family: 'Playball', cursive;
+    padding-left: 10px;
 }

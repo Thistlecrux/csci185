@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+section {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card {
+    border: solid rgb(203, 192, 192) 2px;
+    padding: 10px;
+}
