@@ -23,7 +23,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: rgb(244, 186, 193);
+    color: rgb(240, 186, 188);
     font-size: 20px;
   }
   
@@ -75,7 +75,7 @@ h1 {
 }
 #tutorials, #homework, #inspiration, #class-exercises, #quizzes {
 
-background-color: antiquewhite;
+background-color: rgb(237, 233, 243);
 border-radius: 25px;
 
 }
@@ -83,4 +83,5 @@ border-radius: 25px;
 h2 {
     font-family: 'Playball', cursive;
     padding-left: 10px;
+    color: rgb(212, 124, 124);
 }
