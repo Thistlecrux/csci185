@@ -11,7 +11,26 @@ p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
-
+/* unvisited link */
+a:link {
+    color: rgb(212, 124, 124);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(101, 172, 121, 0.587);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(244, 186, 193);
+    font-size: 20px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(245, 216, 157);
+  }
 h1 {
     font-family: 'Playball', cursive;
     color: rgb(240, 186, 188);
