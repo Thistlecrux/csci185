@@ -1,0 +1,11 @@
+Please answer the following accessibility questions:
+
+
+1. What accessibility corrections did you have to make?
+Adding the document language and alt text to all photos. There is an alert saying I have "empty buttons," but there was no instruction in the assignment to link them anywhere, so I'm assuming that's okay?
+
+2. Do you think your website is usable if you turn off the CSS? Why or why not?
+Yes, but it may be slightly disorganized. The HTML itself is not terrible at all.
+
+3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+I'm not sure due to the fact that none of the links go anywhere yet.
