@@ -35,6 +35,10 @@ function forward() {
     idx += 1;
     showImage();
 }
+if (idx -=1 photos.length) {
+    idx = 0;
+}
+
 
 
 /* This function should set the idx variable 
