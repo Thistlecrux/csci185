@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thistlecrux: Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../portfolio.css">
+    <script src="../scripts.js" defer></script>
+</head>
+<body>
+    <header> 
+
+        <h1> THISTLECRUX </h1>
+
+    </header>
+    <nav class = navbar>
+        <li><a href="../index.html">Home</a></li>
+        <li class="current"><a href="portfolio.html"></a>Portfolio</li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="terms.html">TOS</a></li>
+        <li><a href="commission.html">Commission</a></li>
+</nav>
+
+<main>
+    <h1>Portfolio</h1>
+    <section class="carousel" aria-label="Photo Carousel">
+        <div class="current-photo">
+            <!-- Replace image here -->
+            <img src="images/img1-600x400.jpg" alt="current photo" />
+        </div> 
+        <button class="back" aria-label="Show previous slide" onclick="back()">
+            <img src="images/left.png" alt="" />
+        </button>
+        <button class="forward" aria-label="Show next slide" onclick="forward()">
+            <img src="images/right.png" alt="" />
+        </button>
+        <p class="caption">Image 1 of 10</p>
+    </section>
+</main>
+
+<footer>
+    
+</footer>
+</body>
+</html>

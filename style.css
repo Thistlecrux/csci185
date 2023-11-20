@@ -64,7 +64,7 @@ h1 {
   
 }
 
-#class-exercises {
+#final-project {
     grid-column: 2 / 3;
     
 }
@@ -73,7 +73,7 @@ h1 {
     grid-column: 4 / 5;
     
 }
-#tutorials, #homework, #inspiration, #class-exercises, #quizzes {
+#tutorials, #homework, #inspiration, #final-project, #quizzes {
 
 background-color: rgb(237, 233, 243);
 border-radius: 25px;
