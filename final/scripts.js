@@ -1,14 +1,18 @@
 const photos = [
-    "images/img1-600x400.jpg",
-    "images/img2-600x400.jpg",
-    "images/img3-600x400.jpg",
-    "images/img4-600x400.jpg",
-    "images/img5-600x400.jpg",
-    "images/img6-600x400.jpg",
-    "images/img7-600x400.jpg",
-    "images/img8-600x400.jpg",
-    "images/img9-600x400.jpg",
-    "images/img10-600x400.jpg"
+    "portfolio.images/dahlia.JPG",
+    "portfolio.images/artemoose.JPG",
+    "portfolio.images/eddie.JPG",
+    "portfolio.images/bondi.JPG",
+    "portfolio.images/lilith.JPG",
+    "portfolio.images/solstice.JPG",
+    "portfolio.images/poptart.JPG",
+    "portfolio.images/khalid.JPG",
+    "portfolio.images/solitude.JPG",
+    "portfolio.images/tetsuro.JPG",
+    "portfolio.images/knix.JPG",
+    "portfolio.images/senzi.JPG",
+    "portfolio.images/bait.JPG",
+
 ];
 let idx = 0;
 
@@ -20,8 +24,8 @@ let idx = 0;
 function showImage() {
     console.log('Show image');
     const img = document.querySelector(".current-photo img");
-    img.src = photos[idx];
-    document.querySelector(".caption").innerHTML = "Image "+(idx+1)+" of 10"
+    img.src = '../'+photos[idx];
+    document.querySelector(".caption").innerHTML = "Image "+(idx+1)+" of 13"
 
 }
 
