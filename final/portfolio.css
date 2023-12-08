@@ -11,19 +11,21 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
 }
 main h1 {
-    padding-bottom: 30px;
     font-size: 50px;
     color: white;
+    background-color: rgb(5, 0, 0, 0.4);
     letter-spacing: 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 50;
+    border: solid 3px white;
 }
 .carousel {
     display: flex;
     width: 600px; 
     margin: 0 auto;
     overflow: hidden; 
-
+    padding-top: 20px;
     flex-direction: column;
-    transform: translate(0px,-40px);
 }
 
 .current-photo img {

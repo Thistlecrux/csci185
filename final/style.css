@@ -56,19 +56,19 @@ a:visited {
 
 li {
     display: inline;
+    padding: 60px;
 }
 li a {
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 35px;
-    padding: 60px;
 
 }
 
 .current {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 35px;
-    padding: 60px;
+
 }
 
 .grid-container {
@@ -84,6 +84,9 @@ li a {
 
 /* create your child rules here:  */
 .item-1 {
+display: flex;
+justify-content: center;
+align-items: center;
 grid-column: 3 ;
 grid-row: 1 / 3;
 }
@@ -105,11 +108,13 @@ grid-row: 1 / 3;
 }
 
 .item-2 img {
-    height: 400px;
-    width: 300px;
+    height: 500px;
+    width: 370px;
+    transform: translate(0px,-30px);
 }
 .item-1, .item-2, .item-3, .item-4 {
-    background-color: rgb(5, 0, 0);
+    background-color: rgb(5, 0, 0, 0.4);
+    
 }
 
 .socials {
@@ -127,15 +132,79 @@ section h1 {
     letter-spacing: 4px;
     text-align: center;
 }
-
+.page-header {
+    border: solid 3px white;
+    background-color: rgb(5, 0, 0, 0.4);
+}
+.body p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.body {
+    background-color: rgb(5, 0, 0, 0.5);
+    padding-bottom: 2px;
+}
 .item-4 h1 {
+    padding-top: 34px;
 }
 
 .about {
     text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.item-1 img {
+    width: 400px;
+ 
+}
 
+section h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 50;
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.body img {
+    width: 500px;
+}
+.commissions {
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+.form {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 50;
+    font-size: 60px;
+    margin-left: 150px;
+    padding-top: 20px;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.comm-desc {
+    margin-left: 120px;
+    margin-right: 80px;
+    text-align: left;
+}
+.prices-main {
+    margin-left: 100px;
+    margin-right: 500px;
+    background-color: rgb(5, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
 @media only screen and (max-width: 500px) 
 { 
     header {
@@ -164,9 +233,9 @@ section h1 {
     
     li {
         display: inline;
+        padding: 7px;
     }
     li a {
-        padding: 7px;
         font-size: 20px;
     
     }
@@ -176,7 +245,7 @@ section h1 {
     }
     .grid-container {
         display: grid;
-        grid-template-columns: 2;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 30% 23% 23%;
         height: 70vh;
         padding-bottom: 2 px;
@@ -185,6 +254,9 @@ section h1 {
     
     /* create your child rules here:  */
     .item-1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
     grid-column: 2 ;
     grid-row: 1;
     }
@@ -202,7 +274,8 @@ section h1 {
     }
     .item-2 img {
         height: 100%;
-        width: 67%;
+        width: 80%;
+        transform: translate(0px,0px);
     }
     .socials {
         height: 20px;
@@ -217,6 +290,64 @@ section h1 {
     .item-4 h1 {
         font-size: 20px;
     }
+    .item-4 h1 {
+        padding-top: 0px;
+    }
+    
+    .about {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .item-1 img {
+        width: 100px;
+        margin-left: 10px;
+        padding-bottom: 15px;
+        transform: translate(0px,-5px);
+     
+    }
+    .item-1 h1 {
+        font-size: 20px;
+    }
+    .body img {
+        width: 400px;
+    }
+    .form {
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 50;
+        font-size: 30px;
+        margin-left: 10px;
+        padding-top: 10px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        background-color: #000000;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    .commissions {
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+    }
+    .comm-desc {
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .comm-desc p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .prices-main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
+
 
 
