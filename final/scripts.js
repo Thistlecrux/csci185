@@ -1,9 +1,10 @@
 const photos = [
     "portfolio.images/dahlia.JPG",
     "portfolio.images/artemoose.JPG",
+    "portfolio.images/fauxre.jpeg",
     "portfolio.images/eddie.JPG",
     "portfolio.images/bondi.JPG",
-    "portfolio.images/lilith.JPG",
+    "portfolio.images/lilith.jpeg",
     "portfolio.images/solstice.JPG",
     "portfolio.images/poptart.JPG",
     "portfolio.images/khalid.JPG",
@@ -12,6 +13,7 @@ const photos = [
     "portfolio.images/knix.JPG",
     "portfolio.images/senzi.JPG",
     "portfolio.images/bait.JPG",
+    
 
 ];
 let idx = 0;
@@ -25,7 +27,7 @@ function showImage() {
     console.log('Show image');
     const img = document.querySelector(".current-photo img");
     img.src = '../'+photos[idx];
-    document.querySelector(".caption").innerHTML = "Image "+(idx+1)+" of 13"
+    document.querySelector(".caption").innerHTML = "Image "+(idx+1)+" of 14"
 
 }
 
