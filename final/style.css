@@ -216,6 +216,8 @@ section h2 {
        }
     header h1 {
         padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-size: 4em;
     }
        .navbar {
@@ -246,8 +248,8 @@ section h2 {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        height: 70vh;
+        grid-template-rows: 250px 180px 130px;
+        height: 100vh;
         padding-bottom: 2 px;
         
     }
